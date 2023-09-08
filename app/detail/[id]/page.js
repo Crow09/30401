@@ -11,6 +11,7 @@ export default async function Detail(props) {
       <div className="detail-item">Line : {result.line}</div>
       <div className="detail-item">Team : {result.team}</div>
       <Link href={`/edit/${result._id}`}><button>Edit</button></Link>
+      <Link href={`/api/remove`}><button>Edit</button></Link>
     </div>
   )
 }
